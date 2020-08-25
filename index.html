@@ -36,25 +36,28 @@
                 //keep track of your count variable and flip the image\
                 count = count + 1
 
-                if (count % 7 == 1) {
+                if (count % 8 == 1) {
                     header.style = "background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4) ), url('./Photos/Photo9.jpg')"    
                 }                
-                else if(count % 7 == 2){                    
+                else if(count % 8 == 2){                    
                     header.style = "background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4) ), url('./Photos/Photo43.jpg')"
                 }
-                else if(count % 7 == 3){                    
+                else if(count % 8 == 3){                    
                     header.style = "background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4) ), url('./Photos/Photo10.jpg')"
                 }
-                else if(count % 7 == 4){                 
+                else if(count % 8 == 4){                 
                     header.style = "background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4) ), url('./Photos/Photo31.jpg')"
                 }
-                else if(count % 7 == 5){                 
+                else if(count % 8 == 5){                 
                     header.style = "background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4) ), url('./Photos/Photo11.jpg')"
                 }
-                else if(count % 7 == 6){                 
-                    header.style = "background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4) ), url('./Photos/Photo8.jpg')"
+                else if(count % 8 == 6){                 
+                    header.style = "background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4) ), url('./Photos/Photo47.jpg')"
                 }
-                else{
+                else if(count % 8 == 7 ){
+                    header.style = "background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4) ), url('./Photos/Photo45.jpg')"
+                }
+                else {
                     header.style = "background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4) ), url('./Photos/Photo41.jpg')"
                 }
             }
