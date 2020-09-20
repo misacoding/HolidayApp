@@ -26,19 +26,24 @@ ul li a{
     color: #fff;
     padding: 10px 25px;
     border: 1px solid #fff transparent;
-    transition: 1.3s ease
+    transition: 0.7s ease;    
 }
 
 ul li a:hover{
    background-color: rgb(255, 255, 255);
    color: rgb(5, 124, 172); 
-   transition: 1.3s ease;
+   transition: 0.6s ease;
 }
 
 ul li.active a{
     background-color: rgb(255, 255, 255);
     color: rgb(5, 124, 172); 
 }
+
+.main{
+    font-size: 28px;
+}
+
 
 .logo img{
     float: left;
@@ -56,14 +61,14 @@ ul li.active a{
 
 .title h1{
     color: rgb(253, 227, 249);
-    font-size: 60px;
+    font-size: 70px;
 }
 
 .button{
     position: absolute;
     top: 79%;
     left: 50%;
-    transform: translate(-65%, 0%);
+    transform: translate(-67%, 0%);
 }
 
 .btn{
@@ -71,7 +76,8 @@ ul li.active a{
     padding: 10px 30px;
     color: rgb(236, 217, 236);
     text-decoration: none;
-    transition: 1.2s ease;
+    transition: 0.6s ease;
+    font-size: 15px;
 }
 
 .btn:hover{
@@ -80,4 +86,45 @@ ul li.active a{
 }
 
 
+@media only screen and (max-width: 1000px) {
+    .main{
+        font-size: 20px;
+    }
+
+    .title h1{
+        font-size: 50px;
+    }    
+
+    .button{
+        position: absolute;
+        top: 77%;
+        left: 50%;
+        transform: translate(-61%, 0%);
+    }
+
+    .btn{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main{
+        font-size: 13px;
+    }
+
+    .title h1{
+        font-size: 37px;
+    }    
+
+    .btn{
+        font-size: 10px;
+    }
+
+    .button{
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-59%, 0%);
+    }
+}
 
